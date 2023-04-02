@@ -35,7 +35,7 @@ public class BubbleSort {
                 }
             }
 
-            // Закрываем фай
+            // Закрываем файл
             buffer.close();
         } catch (IOException e) {
             e.printStackTrace();

@@ -20,7 +20,7 @@ public class StudentParser {
             if (s.split(":")[0].trim().replaceAll("[\"{}\\[\\]]", "").equals("фамилия")) {
                 builder.append("студент ")
                         .append(s.replaceAll("[\"}\\[\\]]", ""))
-                        .split(":")[1];
+                         .split(":")[1];
             }
             if (s.split(":")[0].replaceAll("[\"{}\\[\\]]", "").equals("оценка")) {
                 builder.append("получил ")
